@@ -33,7 +33,7 @@ import com.demo.R;
  * 
  */
 public class MainActivity extends FragmentActivity {
-    private static final String TAG = "MainActivity";
+    public static final String TAG = "MainActivity";
     private ViewPager mPager;
     private ArrayList<Fragment> fragmentsList;
     private ImageView ivBottomLine;
